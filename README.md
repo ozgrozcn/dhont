@@ -26,3 +26,5 @@ E Partisi: %8         %4           %2.6        %2          %1.6          =  0 Mi
 Şeklinde milletvekilliği dağılımını üstlenirler, kalın yazı ile gösterilen bölümler milletvekilliği alınan yüzdelerdir.
 
 Burada yazdığım kodda bu hesaplama yapılmaktadır. ref: dhont.py
+
+dipnot: Kodun en üstündeki parti listelerine istenilen parti eklenerek hesaplamaya dahil edilebilir.
