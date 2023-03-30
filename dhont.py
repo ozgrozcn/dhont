@@ -22,7 +22,7 @@ persistence = 100
 
 for i in parties.keys():
 	while True:
-		value = float(input("{} oy oranını giriniz:".format(i.upper())))
+		value = float(input("{}\toy oranını giriniz: ".format(i.upper())))
 		if (value <= persistence):
 			parties[i].append(value)
 			persistence -= value
@@ -52,4 +52,4 @@ for party in numberOfDeputy.keys():
 			continue
 print("-" * 30)
 for result in numberOfDeputy.keys():
-	print("{} {} milletvekili çıkarıyor.\n".format(result.upper(), numberOfDeputy[result]), "-"*30, sep="")
+	print("{}\t{}\tmilletvekili çıkarıyor.\n".format(result.upper(), numberOfDeputy[result]), "-"*30, sep="")
