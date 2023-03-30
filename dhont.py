@@ -22,7 +22,7 @@ persistence = 100
 
 for i in parties.keys():
 	while True:
-		value = float(input("{}\toy oranını giriniz: ".format(i.upper())))
+		value = float(input("{} oy oranını giriniz: ".format(i.upper())))
 		if (value <= persistence):
 			parties[i].append(value)
 			persistence -= value
